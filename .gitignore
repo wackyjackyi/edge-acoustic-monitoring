@@ -1,0 +1,20 @@
+# Do not commit datasets / generated audio
+data/raw/
+data/standardized_wav/
+data/segments/
+data/features/
+
+# Do not commit model checkpoints
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
