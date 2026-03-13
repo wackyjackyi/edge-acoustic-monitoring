@@ -3,10 +3,12 @@ data/raw/
 data/standardized_wav/
 data/segments/
 data/features/
+data/results/
 
 # Do not commit model checkpoints
 *.pt
 *.pth
+*.wav
 
 # Python cache
 __pycache__/
